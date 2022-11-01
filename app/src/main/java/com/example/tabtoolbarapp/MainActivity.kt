@@ -2,6 +2,9 @@ package com.example.tabtoolbarapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.badge.BadgeDrawable
@@ -60,5 +63,27 @@ class MainActivity : AppCompatActivity() {
                 }
             })
         mediadorTabla.attach()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        //return super.onCreateOptionsMenu(menu)
+        menuInflater.inflate(R.menu.app_menu,menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        //return super.onOptionsItemSelected(item)
+        when(item.itemId){
+            R.id.miConfiguracion->
+                Toast.makeText(this,"Has seleccionado configuracion", Toast.LENGTH_SHORT).show()
+            R.id.miContactos->
+                Toast.makeText(this,"Has seleccionado Contactos", Toast.LENGTH_SHORT).show()
+            R.id.miNActivity->
+                Toast.makeText(this,"Has seleccionado una nueva activity", Toast.LENGTH_SHORT).show()
+            R.id.miClose->
+                finish()
+        }
+
+        return true
     }
 }

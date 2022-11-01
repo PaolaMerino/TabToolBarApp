@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TabToolBarApp/app/src/debug/res/layout/fragment_otro_fragmento.xml" value="0.2" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TabToolBarApp/app/src/main/res/drawable/ic_addactivity.xml" value="0.1" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TabToolBarApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TabToolBarApp/app/src/main/res/layout/activity_vista_fragmento.xml" value="0.16" />
         <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TabToolBarApp/app/src/main/res/layout/fragment_vista_fragmento.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TabToolBarApp/app/src/main/res/menu/menu.xml" value="0.25" />
       </map>
     </option>
   </component>
